@@ -7,7 +7,6 @@ import java.time.Instant;
 public class ArtworkRegistered {
     private String artworkId;
     private String artistId;
-    private String type;
     private String description;
     private String title;
     private Double price;

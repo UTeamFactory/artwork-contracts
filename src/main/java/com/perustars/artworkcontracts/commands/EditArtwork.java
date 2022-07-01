@@ -8,7 +8,6 @@ public class EditArtwork {
     @TargetAggregateIdentifier
     private String artworkId;
     private String artistId;
-    private String type;
     private String description;
     private String title;
     private Double price;
@@ -21,10 +20,6 @@ public class EditArtwork {
 
     public String getArtistId() {
         return artistId;
-    }
-
-    public String getType() {
-        return type;
     }
 
     public String getDescription() {
@@ -47,10 +42,9 @@ public class EditArtwork {
         return link;
     }
 
-    public EditArtwork(String artworkId, String artistId, String type, String description, String title, Double price, String image, String link) {
+    public EditArtwork(String artworkId, String artistId, String description, String title, Double price, String image, String link) {
         this.artworkId = artworkId;
         this.artistId = artistId;
-        this.type = type;
         this.description = description;
         this.title = title;
         this.price = price;
