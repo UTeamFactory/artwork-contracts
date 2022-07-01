@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.perustars</groupId>
-	<artifactId>report-contracts</artifactId>
+	<artifactId>artwork-contracts</artifactId>
 	<version>0.0.1</version>
 	<properties>
 		<java.version>11</java.version>
